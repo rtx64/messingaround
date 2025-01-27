@@ -1,1 +1,1 @@
-Start-Sleep -Seconds 5 Invoke-WebRequest $https://raw.githubusercontent.com/rtx64/messingaround/refs/heads/main/testrequest.png -OutFile c:\testrequest.png
+$myDonwloadUrl = "https://raw.githubusercontent.com/rtx64/messingaround/refs/heads/main/testrequest.png" Start-Sleep -Seconds 5 Invoke-WebRequest $myDownloadUrl -OutFile c:\file.ext
