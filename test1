@@ -1,1 +1,1 @@
-"if this shows up its working?"
+Start-Sleep -Seconds 5 Invoke-WebRequest $https://raw.githubusercontent.com/rtx64/messingaround/refs/heads/main/testrequest.png -OutFile c:\testrequest.png
