@@ -1,1 +1,1 @@
-"Connecting to service, please wait..." Start-Sleep -Seconds 5 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/rtx64/messingaround/refs/heads/main/testrequest.png"
+$Congrats = "this is a copy of a bad program that has been edited to be safe." "Connecting to service, please wait..." $downloadUrl = "https://raw.githubusercontent.com/rtx64/messingaround/refs/heads/main/testrequest.png" Start-Sleep -Seconds 5 Invoke-WebRequest -Uri $downloadUrl $bruh = Read-Host "Please enter the software, you want to activate" Start-Sleep -Seconds 5 "Activation sucessful!"
